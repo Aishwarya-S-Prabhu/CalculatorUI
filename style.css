@@ -1,0 +1,125 @@
+body{
+    margin: 80px;
+    background: rgb(179,248,240);
+    background: linear-gradient(120deg, rgba(179,248,240,1) 0%, rgba(206,239,236,1) 49%, rgba(238,229,234,1) 100%); 
+}
+/*Calculator div*/
+.Image{
+    background-color: white;
+    width: 220px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: rgb(17, 1, 1);
+    text-align: center;
+}
+
+.container2{
+    margin: 10px;
+    display: grid;
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    gap: 5px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.Differ{
+    height: 40px;
+    border-radius: 5px;
+    grid-column: span 2;
+    text-align: left;
+    padding-left: 15px;
+    background-color: #f6dce4;
+    box-shadow: 5px 5px 5px rgb(211, 209, 209);
+}
+.Buttons{
+    background-color: #f6dce4;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    box-shadow: 5px 5px 5px rgb(211, 209, 209);
+}
+p{
+    margin-top: 12px;
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    
+    color: rgb(66, 65, 65);
+    
+}
+.Buttons:hover{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.Differ:hover{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
+.change{
+    background-color:#7bdff2;
+}
+.Nav{
+    padding:5px 5px 9px 9px;
+    display: flex;
+    height: 15px;
+    border-radius: 10px 10px 0 0;
+    justify-content: space-between;
+    background-color: #f2b5d4;
+    font-size: small;
+}
+h4{
+    background-color: rgb(228, 173, 191);
+    
+}
+/* top section with icons*/
+.Top{
+    display: inline-flex;
+    gap: 5px;
+    justify-content: flex-end;
+    
+    
+}
+.Diff{
+    align-self: flex-start;
+}
+.Form{
+    width: 200px;
+    height: 60px;
+    background-color: #f7d6e0;
+    padding: 0;
+    margin: 10px;
+    border-radius: 5px;
+}
+.Input{
+    padding: 0;
+    margin: 1px 0;
+    width: 190px;
+    height: 50px;
+    margin-top: 3px;
+    border-radius: 5px;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #000;
+    background: rgb(203,212,194);
+    background: linear-gradient(120deg, rgba(203,212,194,1) 0%, rgba(194,205,186,1) 49%, rgba(180,192,170,1) 100%); 
+    border: 2px solid #b0dae8;
+    
+}
+::placeholder{
+    opacity: 0.2;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Squada One', cursive;
+    }
+
+img{
+    height: 10px;
+    padding: 3px;
+}
